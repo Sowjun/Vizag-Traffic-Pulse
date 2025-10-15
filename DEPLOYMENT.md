@@ -3,7 +3,6 @@
 
 
 # Vercel Deployment Guide
-
 ## Prerequisites
 - Node.js 18+ installed
 - Vercel CLI installed (`npm i -g vercel`)
