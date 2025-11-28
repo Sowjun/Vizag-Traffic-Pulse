@@ -6,19 +6,19 @@ A comprehensive traffic analysis and prediction dashboard for Visakhapatnam city
 
 Vizag Traffic Pulse is a full-stack web application built with React frontend and Express.js backend. The application processes CSV traffic data, provides real-time monitoring via WebSocket connections, and integrates Python-based machine learning for high-accuracy traffic analysis.
 
-## ✨ Key Features (Vercel Deployment Ready)
+##  Key Features (Vercel Deployment Ready)
 
-- **🔄 Real-time Data Processing**: Live traffic data with WebSocket connections (`/ws` endpoint)
-- **📊 Interactive Charts**: Dynamic visualizations using Recharts library
-- **🤖 Python ML Integration**: High-accuracy analysis using scikit-learn via subprocess
-- **📱 Responsive Design**: Mobile-first design with enhanced accessibility colors
-- **⚡ In-Memory Storage**: Fast data access with optimized caching
-- **🎨 Modern UI**: shadcn/ui components with Tailwind CSS
-- **📈 CSV Data Processing**: Upload and analyze traffic datasets
-- **🔍 Multiple Chart Types**: Congestion, hourly, location-based, and ML performance charts
-- **☁️ Vercel Ready**: Optimized for serverless deployment with all features working
+- ** Real-time Data Processing**: Live traffic data with WebSocket connections (`/ws` endpoint)
+- **Interactive Charts**: Dynamic visualizations using Recharts library
+- **Python ML Integration**: High-accuracy analysis using scikit-learn via subprocess
+- **Responsive Design**: Mobile-first design with enhanced accessibility colors
+- ** In-Memory Storage**: Fast data access with optimized caching
+- **Modern UI**: shadcn/ui components with Tailwind CSS
+- **CSV Data Processing**: Upload and analyze traffic datasets
+- **Multiple Chart Types**: Congestion, hourly, location-based, and ML performance charts
+- ** Vercel Ready**: Optimized for serverless deployment with all features working
 
-## 🏗️ Complete Project Structure
+## Complete Project Structure
 
 ### 📁 Root Directory
 ```
@@ -180,7 +180,7 @@ Vizag Traffic Pulse is a full-stack web application built with React frontend an
 - **Frontend listeners** receive and process real-time data
 - **State management** updates UI components automatically
 
-## 📊 API Reference
+## API Reference
 
 ### Core Endpoints
 ```
@@ -198,7 +198,7 @@ WebSocket /ws                 # Real-time data stream
 - **`locations`**: Location-based traffic analysis
 - **`ml`**: ML model performance comparison (RMSE, R²)
 
-## 🤖 Machine Learning Integration
+## Machine Learning Integration
 
 ### Python Analysis Pipeline
 **File**: `analyze_traffic.py`
@@ -217,7 +217,7 @@ WebSocket /ws                 # Real-time data stream
 - **R²** (R-squared): Variance explanation coefficient
 - **Results displayed** in dedicated ML performance chart
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - **Node.js 18+** (JavaScript runtime)
@@ -267,13 +267,13 @@ This application is fully optimized for Vercel deployment:
 - **Mock ML Analysis**: Python ML analysis replaced with JavaScript mock for serverless compatibility
 
 ### Live Features After Deployment
-- ✅ CSV File Upload and Processing
-- ✅ Interactive Charts and Visualizations  
-- ✅ Real-time Traffic Monitoring (via polling)
-- ✅ Key Indicators Dashboard
-- ✅ All UI Components and Navigation
+-  CSV File Upload and Processing
+- Interactive Charts and Visualizations  
+- Real-time Traffic Monitoring (via polling)
+- Key Indicators Dashboard
+- All UI Components and Navigation
 
-## 🎨 Design System
+## Design System
 
 ### Enhanced Color Palette (Accessibility Optimized)
 ```css
@@ -292,7 +292,7 @@ This application is fully optimized for Vercel deployment:
 - **Animations**: Smooth transitions and hover effects
 - **Components**: Glass-morphism cards with backdrop blur
 
-## 🚀 Production Deployment
+## Production Deployment
 
 ### Traditional Hosting
 ```bash
@@ -337,7 +337,7 @@ npm start
 - **Error handling**: No sensitive data leakage
 - **CORS configuration**: Secure cross-origin requests
 
-## 🤝 Contributing
+## Contributing
 
 ### Development Guidelines
 1. **Follow TypeScript** patterns throughout
