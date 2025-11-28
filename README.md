@@ -8,15 +8,15 @@ Vizag Traffic Pulse is a full-stack web application built with React frontend an
 
 ##  Key Features (Vercel Deployment Ready)
 
-- ** Real-time Data Processing**: Live traffic data with WebSocket connections (`/ws` endpoint)
+- **Real-time Data Processing**: Live traffic data with WebSocket connections (`/ws` endpoint)
 - **Interactive Charts**: Dynamic visualizations using Recharts library
 - **Python ML Integration**: High-accuracy analysis using scikit-learn via subprocess
 - **Responsive Design**: Mobile-first design with enhanced accessibility colors
-- ** In-Memory Storage**: Fast data access with optimized caching
+- **In-Memory Storage**: Fast data access with optimized caching
 - **Modern UI**: shadcn/ui components with Tailwind CSS
 - **CSV Data Processing**: Upload and analyze traffic datasets
 - **Multiple Chart Types**: Congestion, hourly, location-based, and ML performance charts
-- ** Vercel Ready**: Optimized for serverless deployment with all features working
+- **Vercel Ready**: Optimized for serverless deployment with all features working
 
 ## Complete Project Structure
 
@@ -131,7 +131,7 @@ Vizag Traffic Pulse is a full-stack web application built with React frontend an
 ### Temp Directory (`temp/uploads/`)
 **Runtime file storage for CSV uploads**
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 - **React 18** + **TypeScript**: Modern component-based UI
