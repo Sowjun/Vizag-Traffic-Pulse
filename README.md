@@ -2,7 +2,7 @@
 
 A comprehensive traffic analysis and prediction dashboard for Visakhapatnam city, featuring real-time data processing, interactive visualizations, and Python-integrated machine learning analysis.
 
-## 🎯 Overview
+## Overview
 
 Vizag Traffic Pulse is a full-stack web application built with React frontend and Express.js backend. The application processes CSV traffic data, provides real-time monitoring via WebSocket connections, and integrates Python-based machine learning for high-accuracy traffic analysis.
 
@@ -37,7 +37,7 @@ Vizag Traffic Pulse is a full-stack web application built with React frontend an
 └── replit.md              # Development environment notes
 ```
 
-### 📁 Client Directory (`client/`)
+### Client Directory (`client/`)
 **Frontend React Application**
 
 #### Main Files
@@ -93,7 +93,7 @@ Vizag Traffic Pulse is a full-stack web application built with React frontend an
 - **`utils.ts`**: Helper functions (cn, formatters)
 - **`queryClient.ts`**: TanStack Query configuration
 
-### 📁 Server Directory (`server/`)
+### Server Directory (`server/`)
 **Express.js Backend with TypeScript**
 
 - **`index.ts`**: 
@@ -119,16 +119,16 @@ Vizag Traffic Pulse is a full-stack web application built with React frontend an
   - Hot reload and static serving
   - Production build support
 
-### 📁 Shared Directory (`shared/`)
+### Shared Directory (`shared/`)
 - **`schema.ts`**: 
   - Drizzle ORM schema definitions
   - Zod validation schemas
   - TypeScript type exports for API consistency
 
-### 📁 Public Assets (`public/`)
+### Public Assets (`public/`)
 - **`data/lucknow_traffic_cleaned.csv`**: Sample traffic dataset
 
-### 📁 Temp Directory (`temp/uploads/`)
+### Temp Directory (`temp/uploads/`)
 **Runtime file storage for CSV uploads**
 
 ## 🛠️ Technology Stack
@@ -250,7 +250,7 @@ NODE_ENV=development         # Environment mode
 PYTHON_BIN=python           # Python executable path (optional)
 ```
 
-## ☁️ Vercel Deployment
+## Vercel Deployment
 
 This application is fully optimized for Vercel deployment:
 
@@ -316,7 +316,7 @@ npm start
 - **WebSocket** for real-time updates
 - **Memory storage** for fast data access
 
-## 🔧 Development Notes
+##  Development Notes
 
 ### Current Architecture
 - **Storage**: In-memory only (MemStorage implementation)
